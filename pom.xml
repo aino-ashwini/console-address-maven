@@ -8,11 +8,11 @@
 	<name>console-menu-maven</name>
 	<description>address book console application</description>
 	<modules>
-		<!-- <module>address</module> -->
-		<!-- <module>util</module> -->
+		<module>address</module>
+		<module>util</module>
 	</modules>
 
-	<dependencies>
+	<!-- <dependencies>
 		<dependency>
 			<groupId>com.aino.training.address</groupId>
 			<artifactId>util</artifactId>
@@ -24,8 +24,7 @@
 			<artifactId>address</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
-	</dependencies>
+	</dependencies> -->
 
 	<build>
 		<plugins>
@@ -33,13 +32,13 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
-				<executions>
+				<!-- <executions>
 					<execution>
 						<goals>
 							<goal>java</goal>
 						</goals>
 					</execution>
-				</executions>
+				</executions> -->
 				<configuration>
 					<includePluginDependencies>true</includePluginDependencies>
 					<mainClass>com.aino.training.address.AddressBookMainAppMenu</mainClass>
