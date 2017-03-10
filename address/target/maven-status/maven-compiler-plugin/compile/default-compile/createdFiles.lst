@@ -1,0 +1,12 @@
+com/aino/training/address/SearchClass.class
+com/aino/training/address/Deserialization.class
+com/aino/training/address/DisplayMethodName.class
+com/aino/training/address/SearchByZip.class
+com/aino/training/address/Serialization.class
+com/aino/training/address/DisplayAddressActivity.class
+com/aino/training/address/SearchByID.class
+com/aino/training/address/DeleteAddressActivity.class
+com/aino/training/address/AddressBookMainAppMenu.class
+com/aino/training/address/Address.class
+com/aino/training/address/AddAddressActivity.class
+com/aino/training/address/ClassLoader.class
